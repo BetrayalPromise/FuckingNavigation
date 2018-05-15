@@ -25,7 +25,7 @@ FuckingNavigation 用以导航栏渐变处理
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'BetrayalPromise@gmail.com' => 'BetrayalPromise@gmail.com' }
-  s.source           = { :git => 'https://github.com/BetrayalPromise@gmail.com/FuckingNavigation.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/BetrayalPromise/FuckingNavigation.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
