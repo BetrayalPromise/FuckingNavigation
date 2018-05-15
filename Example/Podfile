@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FuckingNavigation_Example' do
+  pod 'FuckingNavigation', :path => '../'
+
+  target 'FuckingNavigation_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
