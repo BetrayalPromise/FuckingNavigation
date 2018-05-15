@@ -1,0 +1,16 @@
+PODS:
+  - FuckingNavigation (0.1.0)
+
+DEPENDENCIES:
+  - FuckingNavigation (from `../`)
+
+EXTERNAL SOURCES:
+  FuckingNavigation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FuckingNavigation: bb1fea466642eafa63c8129cf958050843a73d06
+
+PODFILE CHECKSUM: 6214ee2145dcd0945f8e9efdd3d473149f146312
+
+COCOAPODS: 1.5.2

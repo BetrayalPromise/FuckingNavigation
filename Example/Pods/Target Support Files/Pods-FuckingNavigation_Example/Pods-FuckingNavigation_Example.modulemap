@@ -1,0 +1,6 @@
+framework module Pods_FuckingNavigation_Example {
+  umbrella header "Pods-FuckingNavigation_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

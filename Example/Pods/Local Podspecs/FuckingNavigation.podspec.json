@@ -1,0 +1,22 @@
+{
+  "name": "FuckingNavigation",
+  "version": "0.1.0",
+  "summary": "A short description of FuckingNavigation.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/BetrayalPromise@gmail.com/FuckingNavigation",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "BetrayalPromise@gmail.com": "BetrayalPromise@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/BetrayalPromise@gmail.com/FuckingNavigation.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "FuckingNavigation/*"
+}

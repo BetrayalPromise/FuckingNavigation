@@ -1,0 +1,751 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		024EC76233B677C529B27455BF764781 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		108BC48853844975AB4E8A59C8B2668A /* Pods-FuckingNavigation_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D36B2E85A208A4C005D315C55D593408 /* Pods-FuckingNavigation_Example-dummy.m */; };
+		116C2B0C0DD1952AABFED5D5C4C1EE7B /* FuckingNavigation-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2DD6BA11AA8051F1B1371F85E227F3D /* FuckingNavigation-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		207860D47077806397210173172DFB59 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		2C9529D74D8AD649669B27166DD1EA45 /* FuckingNavigation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4B514F77B5355B587B2C6C0847C4BCC7 /* FuckingNavigation-dummy.m */; };
+		53BE04EC4183B8697228B85D01AD66DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		87841E107CB3B4A246703878ABB59B37 /* Pods-FuckingNavigation_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D09876BC32000C30D23F7DE3EFEDC757 /* Pods-FuckingNavigation_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A54B03B00AC31F60CC2DF1225CBD4A44 /* UINavigationController+FuckingNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F3D2E0E7266584F9A66B188792199BA /* UINavigationController+FuckingNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C94D0D8828480BCF1999C7A7E123DCBF /* Pods-FuckingNavigation_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BCF30A9B4C354454BF4930C3128FB8D /* Pods-FuckingNavigation_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEC2F43D0ABA20118EE9575DD5B4713E /* Pods-FuckingNavigation_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 421626502C5CEC876A08AABCFA245C9A /* Pods-FuckingNavigation_Tests-dummy.m */; };
+		E0D6357EB46A8B7E45D0C4970B9D59B5 /* UINavigationController+FuckingNavigation.m in Sources */ = {isa = PBXBuildFile; fileRef = B39D52EE1598EBF2C39E203764C2AEC8 /* UINavigationController+FuckingNavigation.m */; };
+		E7A4B31E5D461B621AA90157437C7F9E /* FuckingNavigation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1F706BEE036D0E351C3E15F4D0B4C1DD /* FuckingNavigation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		733566D1DC06DE84D2BCCDFE92D0A43F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C341F2083AF4E3CADC1FEDB048B04D70;
+			remoteInfo = "Pods-FuckingNavigation_Example";
+		};
+		9EFE7AA4DDA6BD5F71754898C16502D5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A3AFF4BB9D4AF8344632DFE26177C59;
+			remoteInfo = FuckingNavigation;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05A02F8C87F4FBF9820DA1335233E316 /* Pods-FuckingNavigation_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuckingNavigation_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		05E862036269E643B42950A101EAD85E /* Pods-FuckingNavigation_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuckingNavigation_Tests-resources.sh"; sourceTree = "<group>"; };
+		198E59F983FB87D23FE335CE05FF1522 /* Pods-FuckingNavigation_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuckingNavigation_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B1282C129629610993299BE6B57A144 /* FuckingNavigation.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FuckingNavigation.framework; path = FuckingNavigation.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1EF86EBB69AE14A930C12CF7623BAFB6 /* Pods-FuckingNavigation_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuckingNavigation_Example.release.xcconfig"; sourceTree = "<group>"; };
+		1F706BEE036D0E351C3E15F4D0B4C1DD /* FuckingNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FuckingNavigation.h; path = FuckingNavigation/FuckingNavigation.h; sourceTree = "<group>"; };
+		2F3D2E0E7266584F9A66B188792199BA /* UINavigationController+FuckingNavigation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UINavigationController+FuckingNavigation.h"; path = "FuckingNavigation/UINavigationController+FuckingNavigation.h"; sourceTree = "<group>"; };
+		385E13E571D0BDE14204DF28ED3553DB /* Pods-FuckingNavigation_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuckingNavigation_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3CDEE592CE5F5E610807EB654CBA0606 /* Pods-FuckingNavigation_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FuckingNavigation_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3E13EF523ADFE0AC0937DEA7F02F79DC /* FuckingNavigation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuckingNavigation-prefix.pch"; sourceTree = "<group>"; };
+		421626502C5CEC876A08AABCFA245C9A /* Pods-FuckingNavigation_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuckingNavigation_Tests-dummy.m"; sourceTree = "<group>"; };
+		49B313CC0FCAA49D2F104302E49C714F /* FuckingNavigation.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FuckingNavigation.modulemap; sourceTree = "<group>"; };
+		4AE3BE46F093968F44AD486E59F03C49 /* Pods-FuckingNavigation_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuckingNavigation_Example-resources.sh"; sourceTree = "<group>"; };
+		4B514F77B5355B587B2C6C0847C4BCC7 /* FuckingNavigation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FuckingNavigation-dummy.m"; sourceTree = "<group>"; };
+		5698C23F5362CF848784EC2AF88FB7DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59F54095C33930485F12AF9E3DD0062A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5E86A7E5FE412162DE47B1FA76630CD7 /* Pods_FuckingNavigation_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FuckingNavigation_Example.framework; path = "Pods-FuckingNavigation_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		669F4FAD0DCB40EE2062726918D91C0A /* Pods-FuckingNavigation_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuckingNavigation_Tests.modulemap"; sourceTree = "<group>"; };
+		7BCF30A9B4C354454BF4930C3128FB8D /* Pods-FuckingNavigation_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuckingNavigation_Tests-umbrella.h"; sourceTree = "<group>"; };
+		85B124D5C779A6F5EEE76D2BAA65ACCA /* Pods-FuckingNavigation_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FuckingNavigation_Example.modulemap"; sourceTree = "<group>"; };
+		8FF026B6E70AEFE36A9D2C3F99DCF16D /* Pods-FuckingNavigation_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuckingNavigation_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95519B3C1604A3223772AB2FF0449F12 /* FuckingNavigation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = FuckingNavigation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		987B72D8DFBB8292C95E9859A3DF2480 /* FuckingNavigation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FuckingNavigation.xcconfig; sourceTree = "<group>"; };
+		9F8AA6D4D3C3D7BDCEA9425E5435F655 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A45CCB2A8EB505FC13DEF7D55C9B3EF3 /* Pods-FuckingNavigation_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FuckingNavigation_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A6BEA0D4721EFC382C88791B4E26ADA7 /* Pods-FuckingNavigation_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuckingNavigation_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		B39D52EE1598EBF2C39E203764C2AEC8 /* UINavigationController+FuckingNavigation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UINavigationController+FuckingNavigation.m"; path = "FuckingNavigation/UINavigationController+FuckingNavigation.m"; sourceTree = "<group>"; };
+		B7AD778C231941311002BB52384E3CEA /* Pods-FuckingNavigation_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FuckingNavigation_Example-frameworks.sh"; sourceTree = "<group>"; };
+		C8205131295148B2EC9798240F091E8A /* Pods_FuckingNavigation_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FuckingNavigation_Tests.framework; path = "Pods-FuckingNavigation_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D09876BC32000C30D23F7DE3EFEDC757 /* Pods-FuckingNavigation_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FuckingNavigation_Example-umbrella.h"; sourceTree = "<group>"; };
+		D273A81ECDBA6326CB67319663FE2360 /* Pods-FuckingNavigation_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FuckingNavigation_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D2DD6BA11AA8051F1B1371F85E227F3D /* FuckingNavigation-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FuckingNavigation-umbrella.h"; sourceTree = "<group>"; };
+		D36B2E85A208A4C005D315C55D593408 /* Pods-FuckingNavigation_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FuckingNavigation_Example-dummy.m"; sourceTree = "<group>"; };
+		E8ABCE102116406166FEBDBA672F029C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E8B8B06F160BD07C8878BC66DCB71D5C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E1C0ADFAFE1DA41850C75958038B83A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				207860D47077806397210173172DFB59 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		56A72C693619AC4407CCA00524D377ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				53BE04EC4183B8697228B85D01AD66DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE9E7A82802C4628F587FF1A894E7A40 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				024EC76233B677C529B27455BF764781 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E761FA2CBBE0E5ABE7DACE041EA926F /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DF028AFBAAE2EB28004D69A7D6E6050 /* FuckingNavigation */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		14A4341555B52690742E317DDBEDFDD2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				49B313CC0FCAA49D2F104302E49C714F /* FuckingNavigation.modulemap */,
+				987B72D8DFBB8292C95E9859A3DF2480 /* FuckingNavigation.xcconfig */,
+				4B514F77B5355B587B2C6C0847C4BCC7 /* FuckingNavigation-dummy.m */,
+				3E13EF523ADFE0AC0937DEA7F02F79DC /* FuckingNavigation-prefix.pch */,
+				D2DD6BA11AA8051F1B1371F85E227F3D /* FuckingNavigation-umbrella.h */,
+				E8B8B06F160BD07C8878BC66DCB71D5C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FuckingNavigation";
+			sourceTree = "<group>";
+		};
+		3DF028AFBAAE2EB28004D69A7D6E6050 /* FuckingNavigation */ = {
+			isa = PBXGroup;
+			children = (
+				1F706BEE036D0E351C3E15F4D0B4C1DD /* FuckingNavigation.h */,
+				2F3D2E0E7266584F9A66B188792199BA /* UINavigationController+FuckingNavigation.h */,
+				B39D52EE1598EBF2C39E203764C2AEC8 /* UINavigationController+FuckingNavigation.m */,
+				A24E62359E44ACE1B45842BF9901948A /* Pod */,
+				14A4341555B52690742E317DDBEDFDD2 /* Support Files */,
+			);
+			name = FuckingNavigation;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		64D0BA6236000A5C4872ED3518DEE8C9 /* Pods-FuckingNavigation_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				5698C23F5362CF848784EC2AF88FB7DB /* Info.plist */,
+				669F4FAD0DCB40EE2062726918D91C0A /* Pods-FuckingNavigation_Tests.modulemap */,
+				385E13E571D0BDE14204DF28ED3553DB /* Pods-FuckingNavigation_Tests-acknowledgements.markdown */,
+				D273A81ECDBA6326CB67319663FE2360 /* Pods-FuckingNavigation_Tests-acknowledgements.plist */,
+				421626502C5CEC876A08AABCFA245C9A /* Pods-FuckingNavigation_Tests-dummy.m */,
+				A6BEA0D4721EFC382C88791B4E26ADA7 /* Pods-FuckingNavigation_Tests-frameworks.sh */,
+				05E862036269E643B42950A101EAD85E /* Pods-FuckingNavigation_Tests-resources.sh */,
+				7BCF30A9B4C354454BF4930C3128FB8D /* Pods-FuckingNavigation_Tests-umbrella.h */,
+				198E59F983FB87D23FE335CE05FF1522 /* Pods-FuckingNavigation_Tests.debug.xcconfig */,
+				05A02F8C87F4FBF9820DA1335233E316 /* Pods-FuckingNavigation_Tests.release.xcconfig */,
+			);
+			name = "Pods-FuckingNavigation_Tests";
+			path = "Target Support Files/Pods-FuckingNavigation_Tests";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				0E761FA2CBBE0E5ABE7DACE041EA926F /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B1F852ECF9A71D6C3B4E79A90CC0F46B /* Products */,
+				98970A6D3E38B3742C11FF32E4981EF6 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		98970A6D3E38B3742C11FF32E4981EF6 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BFD043A912B8A6608445B144AF80EEB0 /* Pods-FuckingNavigation_Example */,
+				64D0BA6236000A5C4872ED3518DEE8C9 /* Pods-FuckingNavigation_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A24E62359E44ACE1B45842BF9901948A /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				95519B3C1604A3223772AB2FF0449F12 /* FuckingNavigation.podspec */,
+				59F54095C33930485F12AF9E3DD0062A /* LICENSE */,
+				9F8AA6D4D3C3D7BDCEA9425E5435F655 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		B1F852ECF9A71D6C3B4E79A90CC0F46B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1B1282C129629610993299BE6B57A144 /* FuckingNavigation.framework */,
+				5E86A7E5FE412162DE47B1FA76630CD7 /* Pods_FuckingNavigation_Example.framework */,
+				C8205131295148B2EC9798240F091E8A /* Pods_FuckingNavigation_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5E0D919E635D23B70123790B8308F8EF /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BFD043A912B8A6608445B144AF80EEB0 /* Pods-FuckingNavigation_Example */ = {
+			isa = PBXGroup;
+			children = (
+				E8ABCE102116406166FEBDBA672F029C /* Info.plist */,
+				85B124D5C779A6F5EEE76D2BAA65ACCA /* Pods-FuckingNavigation_Example.modulemap */,
+				A45CCB2A8EB505FC13DEF7D55C9B3EF3 /* Pods-FuckingNavigation_Example-acknowledgements.markdown */,
+				8FF026B6E70AEFE36A9D2C3F99DCF16D /* Pods-FuckingNavigation_Example-acknowledgements.plist */,
+				D36B2E85A208A4C005D315C55D593408 /* Pods-FuckingNavigation_Example-dummy.m */,
+				B7AD778C231941311002BB52384E3CEA /* Pods-FuckingNavigation_Example-frameworks.sh */,
+				4AE3BE46F093968F44AD486E59F03C49 /* Pods-FuckingNavigation_Example-resources.sh */,
+				D09876BC32000C30D23F7DE3EFEDC757 /* Pods-FuckingNavigation_Example-umbrella.h */,
+				3CDEE592CE5F5E610807EB654CBA0606 /* Pods-FuckingNavigation_Example.debug.xcconfig */,
+				1EF86EBB69AE14A930C12CF7623BAFB6 /* Pods-FuckingNavigation_Example.release.xcconfig */,
+			);
+			name = "Pods-FuckingNavigation_Example";
+			path = "Target Support Files/Pods-FuckingNavigation_Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		8C9EBAB20A67CA5E89BBEDDA4E9E5A36 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C94D0D8828480BCF1999C7A7E123DCBF /* Pods-FuckingNavigation_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92EBCB08D02AA4C07D47F45862B73EF0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				87841E107CB3B4A246703878ABB59B37 /* Pods-FuckingNavigation_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86B57FDDFB7FD6E75A55234156DDABD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				116C2B0C0DD1952AABFED5D5C4C1EE7B /* FuckingNavigation-umbrella.h in Headers */,
+				E7A4B31E5D461B621AA90157437C7F9E /* FuckingNavigation.h in Headers */,
+				A54B03B00AC31F60CC2DF1225CBD4A44 /* UINavigationController+FuckingNavigation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		1A3AFF4BB9D4AF8344632DFE26177C59 /* FuckingNavigation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9FC0860118BAEEC1C7C346C68527F263 /* Build configuration list for PBXNativeTarget "FuckingNavigation" */;
+			buildPhases = (
+				7AE44898671966EC2968D83F284E0D88 /* Sources */,
+				56A72C693619AC4407CCA00524D377ED /* Frameworks */,
+				A86B57FDDFB7FD6E75A55234156DDABD /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FuckingNavigation;
+			productName = FuckingNavigation;
+			productReference = 1B1282C129629610993299BE6B57A144 /* FuckingNavigation.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		BC6990864A21DD351453804CA2345248 /* Pods-FuckingNavigation_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DAD28ADAA6476D9095E424405198C7 /* Build configuration list for PBXNativeTarget "Pods-FuckingNavigation_Tests" */;
+			buildPhases = (
+				1A46F46E5DF75EBCA7AE1AD24F5EC9BB /* Sources */,
+				1E1C0ADFAFE1DA41850C75958038B83A /* Frameworks */,
+				8C9EBAB20A67CA5E89BBEDDA4E9E5A36 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BC66C99139EB34AF5A63697EA11BB2C4 /* PBXTargetDependency */,
+			);
+			name = "Pods-FuckingNavigation_Tests";
+			productName = "Pods-FuckingNavigation_Tests";
+			productReference = C8205131295148B2EC9798240F091E8A /* Pods_FuckingNavigation_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C341F2083AF4E3CADC1FEDB048B04D70 /* Pods-FuckingNavigation_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B4B3D23502448D7B0A067815C3B02C /* Build configuration list for PBXNativeTarget "Pods-FuckingNavigation_Example" */;
+			buildPhases = (
+				7632F247CF238E02C8F81AB9BCF938FB /* Sources */,
+				CE9E7A82802C4628F587FF1A894E7A40 /* Frameworks */,
+				92EBCB08D02AA4C07D47F45862B73EF0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				719A524A0CE796F7B47A0178D14DA621 /* PBXTargetDependency */,
+			);
+			name = "Pods-FuckingNavigation_Example";
+			productName = "Pods-FuckingNavigation_Example";
+			productReference = 5E86A7E5FE412162DE47B1FA76630CD7 /* Pods_FuckingNavigation_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B1F852ECF9A71D6C3B4E79A90CC0F46B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A3AFF4BB9D4AF8344632DFE26177C59 /* FuckingNavigation */,
+				C341F2083AF4E3CADC1FEDB048B04D70 /* Pods-FuckingNavigation_Example */,
+				BC6990864A21DD351453804CA2345248 /* Pods-FuckingNavigation_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1A46F46E5DF75EBCA7AE1AD24F5EC9BB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEC2F43D0ABA20118EE9575DD5B4713E /* Pods-FuckingNavigation_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7632F247CF238E02C8F81AB9BCF938FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				108BC48853844975AB4E8A59C8B2668A /* Pods-FuckingNavigation_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7AE44898671966EC2968D83F284E0D88 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C9529D74D8AD649669B27166DD1EA45 /* FuckingNavigation-dummy.m in Sources */,
+				E0D6357EB46A8B7E45D0C4970B9D59B5 /* UINavigationController+FuckingNavigation.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		719A524A0CE796F7B47A0178D14DA621 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = FuckingNavigation;
+			target = 1A3AFF4BB9D4AF8344632DFE26177C59 /* FuckingNavigation */;
+			targetProxy = 9EFE7AA4DDA6BD5F71754898C16502D5 /* PBXContainerItemProxy */;
+		};
+		BC66C99139EB34AF5A63697EA11BB2C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-FuckingNavigation_Example";
+			target = C341F2083AF4E3CADC1FEDB048B04D70 /* Pods-FuckingNavigation_Example */;
+			targetProxy = 733566D1DC06DE84D2BCCDFE92D0A43F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		06F1A5807ECA2A6691F4C9A426F12601 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05A02F8C87F4FBF9820DA1335233E316 /* Pods-FuckingNavigation_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuckingNavigation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuckingNavigation_Tests/Pods-FuckingNavigation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		1D8A5A44584C2499CBAA23DB64F0DEAA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987B72D8DFBB8292C95E9859A3DF2480 /* FuckingNavigation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuckingNavigation/FuckingNavigation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuckingNavigation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuckingNavigation/FuckingNavigation.modulemap";
+				PRODUCT_MODULE_NAME = FuckingNavigation;
+				PRODUCT_NAME = FuckingNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		2656BE9E38C006DF172DF71CA1599064 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1EF86EBB69AE14A930C12CF7623BAFB6 /* Pods-FuckingNavigation_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuckingNavigation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuckingNavigation_Example/Pods-FuckingNavigation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6E1F163B15BC3FF438437167D1530186 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CDEE592CE5F5E610807EB654CBA0606 /* Pods-FuckingNavigation_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuckingNavigation_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuckingNavigation_Example/Pods-FuckingNavigation_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9519A2CDB5BB21E503A4D8582D3514F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198E59F983FB87D23FE335CE05FF1522 /* Pods-FuckingNavigation_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-FuckingNavigation_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-FuckingNavigation_Tests/Pods-FuckingNavigation_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3662ED1D66C73D33A754C5B619AECB0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 987B72D8DFBB8292C95E9859A3DF2480 /* FuckingNavigation.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/FuckingNavigation/FuckingNavigation-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/FuckingNavigation/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/FuckingNavigation/FuckingNavigation.modulemap";
+				PRODUCT_MODULE_NAME = FuckingNavigation;
+				PRODUCT_NAME = FuckingNavigation;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DAD28ADAA6476D9095E424405198C7 /* Build configuration list for PBXNativeTarget "Pods-FuckingNavigation_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9519A2CDB5BB21E503A4D8582D3514F4 /* Debug */,
+				06F1A5807ECA2A6691F4C9A426F12601 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9FC0860118BAEEC1C7C346C68527F263 /* Build configuration list for PBXNativeTarget "FuckingNavigation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A3662ED1D66C73D33A754C5B619AECB0 /* Debug */,
+				1D8A5A44584C2499CBAA23DB64F0DEAA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B4B3D23502448D7B0A067815C3B02C /* Build configuration list for PBXNativeTarget "Pods-FuckingNavigation_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6E1F163B15BC3FF438437167D1530186 /* Debug */,
+				2656BE9E38C006DF172DF71CA1599064 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
